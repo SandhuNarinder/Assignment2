@@ -1,0 +1,69 @@
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif,cursive;
+}
+h6{
+  padding-left: 10%;
+}
+
+.navbar-brand {
+  font-family:  Helvetica;
+}
+
+legend {
+  font-family: sans-serif, Helvetica;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: sans-serif, Arial, sans-serif;
+  color: white;
+  background-color: brown;
+  
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+     list-style-type: square;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+a li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a li:hover:not(.active) {
+  background-color: lightcoral;
+}
+
+.active {
+  background-color: #ffffff;
+}
+ul {
+  overflow: hidden;
+}
+#homeImg {
+    background-image: url(../images/bg.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 10%;
+}
